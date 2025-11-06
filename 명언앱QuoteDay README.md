@@ -34,6 +34,33 @@ ________________________________________________________________________________
 
 ## 프로젝트 구조
 
+QuoteDay/
+├── lib/
+│   ├── main.dart                # 앱 시작 파일
+│   ├── screens/                 # 각 화면(UI) 파일
+│   │   ├── home_screen.dart     # 오늘의 명언 화면
+│   │   ├── add_quote_screen.dart# 명언 추가 화면
+│   │   ├── list_screen.dart     # 저장된 명언 목록
+│   │   └── settings_screen.dart # 설정 화면
+│   │
+│   ├── models/                  # 데이터 구조 정의
+│   │   └── quote.dart           # 명언 데이터 모델
+│   │
+│   ├── services/                # Firebase 등 기능 처리
+│   │   └── firebase_service.dart
+│   │
+│   ├── widgets/                 # 공통 위젯
+│   │   └── quote_card.dart
+│   │
+│   └── utils/                   # 공용 함수, 상수
+│       └── constants.dart
+│
+├── assets/
+│   ├── images/                  # 앱에서 쓰는 이미지
+│   └── fonts/                   # 폰트 파일
+│
+├── pubspec.yaml                 # 패키지 및 의존성 설정
+└── README.md                    # 프로젝트 설명 파일
 
 
 ____________________________________________________________________________________________________________________
