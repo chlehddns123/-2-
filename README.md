@@ -21,6 +21,24 @@
 7주차	README 작성, 문서 정리, 최종 발표 자료 완성	Slide 8: 최종 화면 + 시연 계획
 
 
+## 개발 환경
+- Flutter SDK: 3.24.0
+- Dart: 3.x.x
+- IDE: Visual Studio Code
+
+## 팀 정보
+- 팀장: OOO (1인팀)
+- 역할: 전체 기획 / 디자인 / 개발 / 배포
+
+## 프로젝트 구조
+- main.dart: 앱 실행 진입점
+- screens/: 각 페이지 구성 (Home, Favorites 등)
+- data/: 명언 데이터 파일(json)
+- widgets/: 재사용 가능한 위젯
+
+
+
+
 🔹 Figma Slide 구성 예시
 
 Slide 1: 표지 – 프로젝트명, 이름, 학번
@@ -40,6 +58,13 @@ Slide 7: 발표 시연 흐름 (화면 전환 순서)
 Slide 8: 최종 화면 + 앱 특징 요약
 
 
+ 기대효과
+
+사용자에게 긍정적 메시지 전달
+
+짧은 시간에 Flutter 앱 개발 실습 가능
+
+감성 UI를 통한 사용자 만족도 향상
 
 
 
